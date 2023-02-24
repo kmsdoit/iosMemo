@@ -17,6 +17,7 @@
 		76AAE77829A8BFB900BAF241 /* MemoStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76AAE77729A8BFB900BAF241 /* MemoStore.swift */; };
 		76AAE77B29A8C32B00BAF241 /* MemoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76AAE77A29A8C32B00BAF241 /* MemoCell.swift */; };
 		76AAE77D29A8C37A00BAF241 /* ComposeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76AAE77C29A8C37A00BAF241 /* ComposeView.swift */; };
+		76AAE77F29A8C58200BAF241 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76AAE77E29A8C58200BAF241 /* DetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		76AAE77729A8BFB900BAF241 /* MemoStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoStore.swift; sourceTree = "<group>"; };
 		76AAE77A29A8C32B00BAF241 /* MemoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoCell.swift; sourceTree = "<group>"; };
 		76AAE77C29A8C37A00BAF241 /* ComposeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComposeView.swift; sourceTree = "<group>"; };
+		76AAE77E29A8C58200BAF241 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +109,7 @@
 				76AAE77129A8BE8800BAF241 /* MainListView.swift */,
 				76AAE77A29A8C32B00BAF241 /* MemoCell.swift */,
 				76AAE77C29A8C37A00BAF241 /* ComposeView.swift */,
+				76AAE77E29A8C58200BAF241 /* DetailView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -182,6 +185,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				76AAE77B29A8C32B00BAF241 /* MemoCell.swift in Sources */,
+				76AAE77F29A8C58200BAF241 /* DetailView.swift in Sources */,
 				76AAE75F29A8BDE500BAF241 /* SwiftUIMemo.xcdatamodeld in Sources */,
 				76AAE77829A8BFB900BAF241 /* MemoStore.swift in Sources */,
 				76AAE77229A8BE8800BAF241 /* MainListView.swift in Sources */,
