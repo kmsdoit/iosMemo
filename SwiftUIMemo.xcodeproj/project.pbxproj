@@ -10,9 +10,9 @@
 		76AAE75A29A8BDE500BAF241 /* SwiftUIMemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76AAE75929A8BDE500BAF241 /* SwiftUIMemoApp.swift */; };
 		76AAE75C29A8BDE500BAF241 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76AAE75B29A8BDE500BAF241 /* Persistence.swift */; };
 		76AAE75F29A8BDE500BAF241 /* SwiftUIMemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 76AAE75D29A8BDE500BAF241 /* SwiftUIMemo.xcdatamodeld */; };
-		76AAE76129A8BDE500BAF241 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76AAE76029A8BDE500BAF241 /* ContentView.swift */; };
 		76AAE76329A8BDE600BAF241 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76AAE76229A8BDE600BAF241 /* Assets.xcassets */; };
 		76AAE76729A8BDE600BAF241 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76AAE76629A8BDE600BAF241 /* Preview Assets.xcassets */; };
+		76AAE77229A8BE8800BAF241 /* MainListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76AAE77129A8BE8800BAF241 /* MainListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,10 +20,10 @@
 		76AAE75929A8BDE500BAF241 /* SwiftUIMemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIMemoApp.swift; sourceTree = "<group>"; };
 		76AAE75B29A8BDE500BAF241 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		76AAE75E29A8BDE500BAF241 /* SwiftUIMemo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SwiftUIMemo.xcdatamodel; sourceTree = "<group>"; };
-		76AAE76029A8BDE500BAF241 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		76AAE76229A8BDE600BAF241 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		76AAE76429A8BDE600BAF241 /* SwiftUIMemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SwiftUIMemo.entitlements; sourceTree = "<group>"; };
 		76AAE76629A8BDE600BAF241 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		76AAE77129A8BE8800BAF241 /* MainListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,12 +56,12 @@
 		76AAE75829A8BDE500BAF241 /* SwiftUIMemo */ = {
 			isa = PBXGroup;
 			children = (
+				76AAE77429A8BEBA00BAF241 /* Memory */,
+				76AAE77329A8BEB000BAF241 /* CoreData */,
 				76AAE75929A8BDE500BAF241 /* SwiftUIMemoApp.swift */,
-				76AAE75B29A8BDE500BAF241 /* Persistence.swift */,
-				76AAE76029A8BDE500BAF241 /* ContentView.swift */,
+				76AAE77129A8BE8800BAF241 /* MainListView.swift */,
 				76AAE76229A8BDE600BAF241 /* Assets.xcassets */,
 				76AAE76429A8BDE600BAF241 /* SwiftUIMemo.entitlements */,
-				76AAE75D29A8BDE500BAF241 /* SwiftUIMemo.xcdatamodeld */,
 				76AAE76529A8BDE600BAF241 /* Preview Content */,
 			);
 			path = SwiftUIMemo;
@@ -73,6 +73,22 @@
 				76AAE76629A8BDE600BAF241 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		76AAE77329A8BEB000BAF241 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				76AAE75B29A8BDE500BAF241 /* Persistence.swift */,
+				76AAE75D29A8BDE500BAF241 /* SwiftUIMemo.xcdatamodeld */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		76AAE77429A8BEBA00BAF241 /* Memory */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Memory;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,8 +162,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				76AAE75F29A8BDE500BAF241 /* SwiftUIMemo.xcdatamodeld in Sources */,
+				76AAE77229A8BE8800BAF241 /* MainListView.swift in Sources */,
 				76AAE75A29A8BDE500BAF241 /* SwiftUIMemoApp.swift in Sources */,
-				76AAE76129A8BDE500BAF241 /* ContentView.swift in Sources */,
 				76AAE75C29A8BDE500BAF241 /* Persistence.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
